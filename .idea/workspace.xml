@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cd050b-c752-4892-b62d-c16eef148220" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Contents.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Department.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Departments.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Metric.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Metrics.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/More.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Name/Name.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Orange.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Red.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/components/Sidebar.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metrix-ui/src/store.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metrix-ui/src/components/Hello.vue" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrix-ui/package.json" afterPath="$PROJECT_DIR$/metrix-ui/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrix-ui/src/App.vue" afterPath="$PROJECT_DIR$/metrix-ui/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrix-ui/src/main.js" afterPath="$PROJECT_DIR$/metrix-ui/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrix-ui/src/router/index.js" afterPath="$PROJECT_DIR$/metrix-ui/src/router/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,18 +17,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="More.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/More.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#148#194#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sidebar.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Sidebar.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Metrics.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -70,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Metric.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
                 <element signature="e#114#162#0" expanded="true" />
               </folding>
@@ -78,21 +49,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contents.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Contents.vue">
+      <file leaf-file-name="Homepage.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Homepage.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metrix-ui/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="225">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metrix-ui/src/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metrix-ui/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -101,8 +94,8 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -111,31 +104,21 @@
       <file leaf-file-name="Department.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Department.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="575">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Departments.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Departments.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Departments.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+            <state relative-caret-position="435">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="e#672#707#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Name.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Name/Name.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +163,8 @@
         <option value="$PROJECT_DIR$/metrix-ui/src/components/Metrics.vue" />
         <option value="$PROJECT_DIR$/metrix-ui/src/components/Metric.vue" />
         <option value="$PROJECT_DIR$/metrix-ui/src/App.vue" />
-        <option value="$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue" />
         <option value="$PROJECT_DIR$/metrix-ui/src/components/Departments.vue" />
+        <option value="$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue" />
       </list>
     </option>
   </component>
@@ -283,41 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="metrix-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="metrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metrix-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Name" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,12 +388,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498570852083</updated>
       <workItem from="1498570853591" duration="1598000" />
-      <workItem from="1498579590977" duration="12887000" />
+      <workItem from="1498579590977" duration="14250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14485000" />
+    <option name="totallyTimeSpent" value="15848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
@@ -617,37 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metrix-ui/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrix-ui/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrix-ui/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Orange.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -667,7 +585,7 @@
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/More.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#148#194#0" expanded="true" />
           </folding>
@@ -677,7 +595,7 @@
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Name/Name.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="31" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -685,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Contents.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -701,7 +619,7 @@
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Metric.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
             <element signature="e#114#162#0" expanded="true" />
           </folding>
@@ -711,7 +629,7 @@
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Metrics.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -724,37 +642,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metrix-ui/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Department.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="575">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Departments.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+        <state relative-caret-position="435">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="e#672#707#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrix-ui/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrix-ui/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrix-ui/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrix-ui/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrix-ui/src/components/Homepage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
