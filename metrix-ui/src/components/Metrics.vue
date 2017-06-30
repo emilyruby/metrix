@@ -1,8 +1,11 @@
 <template>
   <div class="container">
-    <metric></metric>
-    <metric></metric>
-    <metric></metric>
+    <metric what="Growth in Number of Shipments" description="Percentage change in number of shipments made last week
+    vs the week before that. Metric is the % growth between these time periods."></metric>
+    <metric what="Proportion of SKU's in Stock" description="Overall percentage of replenishable units in stock
+    currently. Stock coverage."></metric>
+    <metric what="Growth in Number of Hometrials" description="Percentage change in number of home trials served last
+    week vs the week before that. Metric is the % growth between these time periods."></metric>
   </div>
 </template>
 
