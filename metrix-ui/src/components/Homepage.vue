@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <h1 id="title">MyOptique Group</h1>
+    <h1 id="title">Health Board</h1>
     <router-view></router-view>
   </div>
 </template>

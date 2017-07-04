@@ -7,8 +7,6 @@
 <script>
   import { mapMutations } from 'vuex'
   import Department from '@/components/Department.vue'
-  import Red from '@/components/Red.vue'
-  import Orange from '@/components/Orange.vue'
   import gql from 'graphql-tag'
 
   const gqlQuery = gql`{
