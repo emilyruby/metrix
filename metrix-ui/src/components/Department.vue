@@ -12,7 +12,6 @@
         <dot colour="orange"></dot>
         <dot colour="green"></dot>
       </div>
-      <!--<div id="stripe"></div>-->
     </div>
   </router-link>
 </template>
@@ -50,8 +49,8 @@
     font-size: 30px;
     background-color: ghostwhite;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px #444444;
-    height: 60%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.33);
+    height: 90%;
 
     display: flex;
     justify-content: center;

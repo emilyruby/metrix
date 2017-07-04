@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <department title="Technology"></department>
-    <red title="Buying & Merchandising"></red>
+    <department title="AAArgh"></department>
+    <department title="Buying & Merchandising"></department>
     <department title="Internationals"></department>
     <department title="Finance"></department>
-    <orange title="Marketing SRO"></orange>
-    <orange title="Marketing CRM"></orange>
+    <department title="Marketing SRO"></department>
+    <department title="Marketing CRM"></department>
     <department title="Designers"></department>
     <department title="Products"></department>
     <department title="Warehouse"></department>
@@ -18,15 +18,11 @@
 <script>
   import { mapMutations } from 'vuex'
   import Department from '@/components/Department.vue'
-  import Red from '@/components/Red.vue'
-  import Orange from '@/components/Orange.vue'
 
   export default {
     name: 'departments',
     components: {
-      Department,
-      Red,
-      Orange
+      Department
     },
     methods: {
       update (event) {
