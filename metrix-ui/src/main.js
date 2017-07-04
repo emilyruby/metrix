@@ -13,7 +13,7 @@ Vue.use(VueApollo)
 
 const apolloClient = new ApolloClient({
   networkInterface: createNetworkInterface({
-    uri: 'http://localhost:8000/graphql',
+    uri: 'http://127.0.0.1:8000/graphql',
     transportBatching: true
   }),
   connectToDevTools: true
