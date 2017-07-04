@@ -1,17 +1,6 @@
 <template>
   <div class="container">
-    <department title="Technology"></department>
-    <red title="Buying & Merchandising"></red>
-    <department title="Internationals"></department>
-    <department title="Finance"></department>
-    <orange title="Marketing SRO"></orange>
-    <orange title="Marketing CRM"></orange>
-    <department title="Designers"></department>
-    <department title="Products"></department>
-    <department title="Warehouse"></department>
-    <department title="Customer Service GD"></department>
-    <department title="Customer Service SGS"></department>
-    <department title="Customer Service EWB"></department>
+    <department v-for="department in allDepartments" v-bind:title="department['name']" :key="department['name']"></department>
   </div>
 </template>
 
@@ -20,6 +9,13 @@
   import Department from '@/components/Department.vue'
   import Red from '@/components/Red.vue'
   import Orange from '@/components/Orange.vue'
+  import gql from 'graphql-tag'
+
+  const gqlQuery = gql`{
+  allDepartments{
+    name
+  }
+ }`
 
   export default {
     name: 'departments',
@@ -28,6 +24,9 @@
       Red,
       Orange
     },
+    data: () => ({
+      allDepartments: {}
+    }),
     methods: {
       update (event) {
         console.log(event.currentTarget.id)
@@ -38,6 +37,11 @@
       ...mapMutations([
         'switch_department'
       ])
+    },
+    apollo: {
+      allDepartments: {
+        query: gqlQuery
+      }
     }
   }
 </script>
