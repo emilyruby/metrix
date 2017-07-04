@@ -7,19 +7,9 @@
 
 <script>
   import { mapMutations } from 'vuex'
-  import gql from 'graphql-tag'
-
-  const gqlQuery = gql`{
-  allDepartments{
-    name
-  }
- }`
 
   export default {
     name: 'homepage',
-    data: () => ({
-      allDepartments: {}
-    }),
     methods: {
       update (event) {
         this.switch_department({
@@ -29,11 +19,6 @@
       ...mapMutations([
         'switch_department'
       ])
-    },
-    apollo: {
-      allDepartments: {
-        query: gqlQuery
-      }
     }
   }
 </script>
