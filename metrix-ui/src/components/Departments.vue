@@ -7,8 +7,6 @@
 <script>
   import { mapMutations } from 'vuex'
   import Department from '@/components/Department.vue'
-  import Red from '@/components/Red.vue'
-  import Orange from '@/components/Orange.vue'
   import gql from 'graphql-tag'
 
   const gqlQuery = gql`{
@@ -20,9 +18,7 @@
   export default {
     name: 'departments',
     components: {
-      Department,
-      Red,
-      Orange
+      Department
     },
     data: () => ({
       allDepartments: {}
@@ -50,11 +46,9 @@
   .container {
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
   }
