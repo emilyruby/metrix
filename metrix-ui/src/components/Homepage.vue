@@ -7,9 +7,19 @@
 
 <script>
   import { mapMutations } from 'vuex'
+  import gql from 'graphql-tag'
+
+  const gqlQuery = gql`{
+  allDepartments{
+    name
+  }
+ }`
 
   export default {
     name: 'homepage',
+    data: () => ({
+      allDepartments: {}
+    }),
     methods: {
       update (event) {
         this.switch_department({
@@ -19,6 +29,11 @@
       ...mapMutations([
         'switch_department'
       ])
+    },
+    apollo: {
+      allDepartments: {
+        query: gqlQuery
+      }
     }
   }
 </script>
@@ -31,12 +46,15 @@
     text-align: center;
     color: white;
     margin: 30px;
-    font-weight: 200;
     font-size: 70px;
   }
 
   body {
-    background-color: #79aec8;
+    background: #79aec8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#022B3A, #1F7A8C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#022B3A, #1F7A8C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#022B3A, #1F7A8C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#022B3A, #1F7A8C); /* Standard syntax */
     margin: 0;
     padding: 0;
   }
@@ -44,6 +62,11 @@
   #container {
     padding: 0;
     margin: 0;
+  }
+
+  #title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200 !important;
   }
 
 </style>

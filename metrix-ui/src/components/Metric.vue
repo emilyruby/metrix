@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <name></name>
-    <contents></contents>
+    <name :name="what"></name>
+    <contents :desc="description"></contents>
   </div>
 </template>
 
@@ -16,7 +16,8 @@
       Contents
     },
     props: {
-      title: ''
+      what: '',
+      description: ''
     }
   }
 </script>

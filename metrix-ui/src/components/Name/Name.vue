@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Metric
+    {{name}}
   </div>
 </template>
 
@@ -9,7 +9,7 @@
   export default {
     name: 'name',
     props: {
-      title: ''
+      name: ''
     }
   }
 </script>
@@ -19,12 +19,12 @@
     order: 1;
     background-color: whitesmoke;
     height: 30px;
-    width: 340px;
+    width: auto;
     font-size: 30px;
     padding-left: 10px;
     font-weight: 200;
     color: #2c3e50;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px #444444;
     border-radius: 2px;
     border-bottom: solid;
     border-bottom-color: green;
