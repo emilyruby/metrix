@@ -4,31 +4,30 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store.js'
-// import ApolloClient, { createNetworkInterface } from 'apollo-client'
-// import VueApollo from 'vue-apollo'
+import ApolloClient, { createNetworkInterface } from 'apollo-client'
+import VueApollo from 'vue-apollo'
 
 Vue.config.productionTip = false
 
-// Vue.use(VueApollo)
+Vue.use(VueApollo)
 
-//
-// const apolloClient = new ApolloClient({
-//   networkInterface: createNetworkInterface({
-//     uri: 'https://ihbylwrjaj.localtunnel.me',
-//     transportBatching: true
-//   }),
-//   connectToDevTools: true
-// })
-//
-// const apolloProvider = new VueApollo({
-//   defaultClient: apolloClient
-// })
+const apolloClient = new ApolloClient({
+  networkInterface: createNetworkInterface({
+    uri: 'http://localhost:8000/graphql',
+    transportBatching: true
+  }),
+  connectToDevTools: true
+})
+
+const apolloProvider = new VueApollo({
+  defaultClient: apolloClient
+})
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   store,
   router,
-  // apolloProvider,
+  apolloProvider,
   render: h => h(App)
 })
