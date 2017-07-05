@@ -44,12 +44,9 @@
 
 <style scoped>
   .container {
-    height: 100vh;
-    width: 100vw;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
   }
 </style>

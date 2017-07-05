@@ -44,14 +44,12 @@
     padding: 0;
   }
 
-  #container {
-    padding: 0;
-    margin: 0;
-  }
-
   #title {
     font-family: 'Raleway', sans-serif;
     font-weight: 200 !important;
   }
 
+  #container {
+    height: 100%;
+  }
 </style>

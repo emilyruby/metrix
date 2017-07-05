@@ -39,6 +39,7 @@
 
 <style scoped>
   .box {
+    width: 280px;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -58,10 +59,6 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-  }
-
-  #title {
-
   }
 
   a {
